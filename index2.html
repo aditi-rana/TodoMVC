@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en" data-framework="javascript">
+
+<head>
+  <meta charset="utf-8">
+  <title>VanillaJS • TodoMVC</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+
+
+<body>
+  <section class="todoapp">
+    <header class="header">
+      <h1>todos</h1>
+      <input class="new-todo" id="task-input" placeholder="What needs to be done?" autofocus>
+    </header>
+    <section class="main">
+      <input id="toggle-all" class="toggle-all" type="checkbox">
+      <label for="toggle-all">Mark all as complete</label>
+      <ul class="todo-list" id="list"></ul>
+    </section>
+  </section>
+
+
+  <script src="./model.js"></script>
+  <script src="./view.js"></script>
+  <script src="./controller.js"></script>
+</body>
+
+</html>
